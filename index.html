@@ -24,31 +24,40 @@
 
     <!-- Hero Section -->
     <section
-      class="relative bg-custom-gradient w-full max-w-[1440px] h-[614px] py-[96px] gap-[64px]"
+      class="relative bg-custom-gradient w-full h-[calc(100vh-88px)] py-[96px] gap-[64px]"
     >
-      <div class="container mx-auto px-4 text-white text-center">
-        <h1
-          class="font-inter text-[60px] font-semibold leading-[72px] tracking-[-0.02em] text-center mb-6"
-        >
-          Leading
-          <span
-            class="font-inter text-[60px] font-semibold leading-[72px] tracking-[-0.02em] text-orange-600"
-            >custom</span
+      <div
+        class="container mx-auto px-4 text-white text-center h-full flex items-center"
+      >
+        <div>
+          <h1
+            class="font-inter text-6xl font-semibold text-center relative mb-6"
           >
-          software development services company
-        </h1>
+            Leading
+            <span
+              class="bg-[url('assets/icons/patterns/oval-pattern.svg')] bg-no-repeat bg-contain pl-4 pr-8 py-2 pb-4"
+            >
+              <span> custom </span>
+            </span>
+            <br />
+            software development services
+            <br />
+            company
+          </h1>
 
-        <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center mb-8"
-        >
-          At Tigris Works, we deliver top-tier custom software development
-          services that transform your vision into scalable, innovative
-          solutions designed for long-term success.
-        </p>
+          <p
+            class="font-inter text-xl font-normal leading-[30px] text-center mb-8"
+          >
+            At Tigris Works, we deliver top-tier custom software development
+            services that transform your vision into scalable, innovative
+            solutions designed for long-term <br />
+            success.
+          </p>
 
-        <button class="bg-orange-600 text-white px-8 py-3 rounded">
-          Contact Us
-        </button>
+          <button class="bg-orange-600 text-white px-8 py-3 rounded">
+            Contact Us
+          </button>
+        </div>
       </div>
     </section>
 
@@ -64,13 +73,15 @@
             Software Development Services</span
           >
 
-          to Meet Your Need
+          to<br />
+          Meet Your Need
         </h1>
         <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center text-[#667085] mb-8"
+          class="font-inter text-xl font-normal leading-[30px] text-center text-[#667085] mb-8"
         >
           Offering custom software development, mobile and web apps, cloud
-          solutions, system integration, UI/UX design, and ongoing support.
+          solutions,<br />
+          system integration, UI/UX design, and ongoing support.
         </p>
 
         <div class="grid md:grid-cols-3 gap-8">
@@ -142,7 +153,7 @@
           Our Modern Technology Stack
         </h2>
         <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center text-[#667085] mb-8"
+          class="font-inter text-xl font-normal leading-[30px] text-center text-[#667085] mb-8"
         >
           We utilize a modern technology stack to deliver robust, efficient, and
           scalable solutions. Our expertise includes:
@@ -196,7 +207,7 @@
         </h2>
 
         <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center text-[#667085] mb-8"
+          class="font-inter text-xl font-normal leading-[30px] text-center text-[#667085] mb-8"
         >
           At Tigris Works, we follow a structured and efficient process to
           ensure that every project we undertake is delivered with the highest
@@ -204,68 +215,95 @@
           transparent, and tailored to meet each client's unique needs.
         </p>
 
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Discovery & Planning</h3>
-            <p class="text-gray-600">
-              Requirement Gathering: We collaborate to gather and document all
-              your requirements. Project Scope: Clearly defined deliverables and
-              project boundaries. Roadmap Creation: A timeline of milestones and
-              deliverables.
-            </p>
-          </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Design</h3>
-            <p class="text-gray-600">
-              User Experience (UX) Design: Crafting seamless and engaging
-              experiences. User Interface (UI) Design: Designing visually
-              stunning and intuitive interfaces. Prototyping: Creating
-              interactive prototypes for early feedback.
-            </p>
-          </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Development</h3>
-            <p class="text-gray-600">
-              Front-End Development: Building the user-facing side of your
-              application. Back-End Development: Developing the server-side
-              logic, database, and APIs. Integration: Seamlessly integrating
-              with third-party services and tools.
-            </p>
-          </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Testing & Quality Assurance</h3>
-            <p class="text-gray-600">
-              Automated & Manual Testing: Combining the best of both approaches.
-              Performance Testing: Ensuring your software runs smoothly under
-              load. Security Testing: Identifying and mitigating
-              vulnerabilities.
-            </p>
-          </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Deployment</h3>
-            <p class="text-gray-600">
-              Environment Setup: Configuring production environments. Deployment
-              Execution: Releasing the software to live servers. Post-Deployment
-              Support: Immediate support after go-live.
-            </p>
-          </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Maintenance & Support</h3>
-            <p class="text-gray-600">
-              Continuous Monitoring: Keeping an eye on the system’s health.
-              Regular Updates: Implementing patches, updates, and upgrades.
-              Feature Enhancements: Adding new functionalities based on user
-              feedback.
-            </p>
-          </div>
+        <div class="grid md:grid-cols-3 gap-8 text-left">
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/ideation.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
 
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3 class="text-xl font-bold mb-4">Continuous Improvement</h3>
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Ideation
+            </h3>
             <p class="text-gray-600">
-              Post-Mortem Analysis: Reviewing project outcomes and lessons
-              learned. Client Feedback: Gathering feedback to improve future
-              projects. Process Optimization: Refining our methods for better
-              efficiency.
+              We collaboratively brainstorm and refine your idea, ensuring a
+              solid foundation for successful development and execution of the
+              digital product.
+            </p>
+          </div>
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/design.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Design
+            </h3>
+            <p class="text-gray-600">
+              Our skilled designers craft visually stunning interfaces, blending
+              aesthetics and functionality to elevate your product’s user
+              experience.
+            </p>
+          </div>
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/development.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Development
+            </h3>
+            <p class="text-gray-600">
+              Our expert team brings life into your vision, creating a robust
+              digital product that exceeds expectations with precision and
+              innovation.
+            </p>
+          </div>
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/testing.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Testing & QA
+            </h3>
+            <p class="text-gray-600">
+              Our thorough testing guarantees a bug-free experience, ensuring
+              your digital product performs flawlessly for a superior user
+              journey.
+            </p>
+          </div>
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/launch.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Launch
+            </h3>
+            <p class="text-gray-600">
+              Our team manages the launch process, navigating intricacies to
+              ensure your digital product reaches its audience seamlessly and
+              efficiently.
+            </p>
+          </div>
+          <div class="p-5 border border-1 border-gray-200 rounded-lg">
+            <img
+              src="assets/icons/process/maintainence.svg"
+              alt="Icon"
+              class="inline-block align-middle w-[40px] h-[40px] mb-4"
+            />
+            <h3 class="inline-block align-middle text-[32px] font-bold mb-4">
+              Maintenance
+            </h3>
+            <p class="text-gray-600">
+              Our team provides ongoing support and maintenance to ensure your
+              digital product remains up-to-date, secure, and fully functional.
             </p>
           </div>
         </div>
@@ -285,22 +323,20 @@
           ?
         </h1>
         <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center text-[#667085] mb-8"
+          class="font-inter text-xl font-normal leading-[30px] text-center text-[#667085] mb-8"
         >
           At Tigris Works, we stand out because of our
         </p>
 
         <div class="grid md:grid-cols-3 gap-8 text-left">
-          <div class="bg-white shadow-lg p-8 rounded-lg">
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
             <img
               src="assets/icons/why-us/scalable.svg"
               alt="Icon"
               class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
             />
 
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Scalable Team Availability
             </h3>
             <p class="text-gray-600">
@@ -309,10 +345,13 @@
               stage.
             </p>
           </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
+            <img
+              src="assets/icons/why-us/expertise.svg"
+              alt="Icon"
+              class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
+            />
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Excellent Business expertise
             </h3>
             <p class="text-gray-600">
@@ -320,10 +359,13 @@
               industry knowledge with strategic insights to drive your success.
             </p>
           </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
+            <img
+              src="assets/icons/why-us/communication.svg"
+              alt="Icon"
+              class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
+            />
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Transparent Communication
             </h3>
             <p class="text-gray-600">
@@ -332,10 +374,13 @@
             </p>
           </div>
 
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
+            <img
+              src="assets/icons/why-us/vision.svg"
+              alt="Icon"
+              class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
+            />
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Clear Vision
             </h3>
             <p class="text-gray-600">
@@ -343,10 +388,13 @@
               cohesive approach to every project.
             </p>
           </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
+            <img
+              src="assets/icons/why-us/management.svg"
+              alt="Icon"
+              class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
+            />
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Efficient Project Management
             </h3>
             <p class="text-gray-600">
@@ -354,10 +402,13 @@
               timelines to deliver outstanding results.
             </p>
           </div>
-          <div class="bg-white shadow-lg p-8 rounded-lg">
-            <h3
-              class="font-inter text-[20px] font-medium leading-[30px] text-left"
-            >
+          <div class="flex flex-col gap-1 p-8 rounded-lg">
+            <img
+              src="assets/icons/why-us/cost.svg"
+              alt="Icon"
+              class="inline-block w-[48px] h-[48px] p-[12px_0_0_0] mb-2"
+            />
+            <h3 class="font-inter text-xl font-medium leading-[30px] text-left">
               Cost Efficiency
             </h3>
             <p class="text-gray-600">
@@ -368,14 +419,6 @@
         </div>
       </div>
     </section>
-    <section class="py-16">
-      <div class="container mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6">
-          Don’t just take our word for it — hear what our satisfied clients have
-          to say about our services
-        </h1>
-      </div>
-    </section>
 
     <!-- Contact Section -->
     <section class="bg-gray-100 py-16">
@@ -384,7 +427,7 @@
           Start Transforming Your Business Today
         </h2>
         <p
-          class="font-inter text-[20px] font-normal leading-[30px] text-center text-[#667085] mb-8"
+          class="font-inter text-xl font-normal leading-[30px] text-center text-[#667085] mb-8"
         >
           Unlock the full potential of your business with Tigris Work’s
           comprehensive software development services. Contact us now to get
