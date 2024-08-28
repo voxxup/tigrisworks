@@ -1,0 +1,5 @@
+@layer utilities {
+  .bg-custom-gradient {
+    background: linear-gradient(270deg, #e16c28 0%, #191f3a 64.5%);
+  }
+}
